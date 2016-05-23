@@ -1,5 +1,5 @@
 body{
-	background-color: #0E23B2;
+	background-color: rgba(0, 0, 0, 0.5);
 }
 
 .box {
@@ -11,12 +11,12 @@ h1{
 }
 
 #name{
-	color: red;
+	color: lime;
 	text-transform: uppercase;
 }
 
 #name2{
-	color: red;
+	color: lime;
 }
 
 #boxName{
@@ -68,13 +68,18 @@ h1{
 .wrapper{
 	margin: 0 auto;
 	width: 20%;
-	background: url(assets/backtest.png);
+	
 }
 
 #textContent{
-	color: white;
+	color: black;
 }
 
 #textWelcome{
-	color: red;
+	color: lime;
+}
+
+.btn{
+	margin-top: 4%;
+	margin-left: 42%;
 }
