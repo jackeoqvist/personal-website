@@ -1,5 +1,9 @@
+body{
+	background-color: #0E23B2;
+}
+
 .box {
-	border: 2px solid;
+	border: 3px solid;
 }
 
 h1{
@@ -7,13 +11,70 @@ h1{
 }
 
 #name{
-	color: cyan;
+	color: red;
+	text-transform: uppercase;
+}
+
+#name2{
+	color: red;
 }
 
 #boxName{
+	position: relative;
 	float: left;
+	padding-left: 2%;
+	padding-right: 2%;
+	margin-right: 2%;
+}
+
+#boxName:hover{
+	color: yellow;
 }
 
 #boxHeader{
-	float: right;
+	position: relative;
+	float: left;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+#boxHeader:hover{
+	color: yellow;
+}
+
+#boxImg{
+	position: relative;
+	float: left;
+	border-radius: 20%;
+	margin-top: 2%;
+}
+
+#boxContent{
+	position: relative;
+	float: left;
+	padding-left: 2%;
+	padding-right: 2%;
+	margin-top: 2%;
+}
+
+#boxContent:hover{
+	color: yellow;
+}
+
+.container{
+	
+}
+
+.wrapper{
+	margin: 0 auto;
+	width: 20%;
+	background: url(assets/backtest.png);
+}
+
+#textContent{
+	color: white;
+}
+
+#textWelcome{
+	color: red;
 }
